@@ -1,0 +1,279 @@
+[33mcommit 9dca26bfc74f8e8d0cb24c9a4638f7652fa1d122[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 93f1553a3 02835676e
+Author: Shakker Nerd <165377636+shakkernerd@users.noreply.github.com>
+Date:   Fri Jan 24 20:39:23 2025 +0000
+
+    Merge pull request #2735 from twilwa/feat/minimal-merge-queue
+    
+    feat: minimal workflow to resolve ephemeral check
+
+[33mcommit 93f1553a3253131b1b04201ce3b4972056f907ee[m
+Merge: 15b8e7fca 322fd8822
+Author: Shakker Nerd <shakkerdroid@gmail.com>
+Date:   Fri Jan 24 20:07:23 2025 +0000
+
+    Merge branch 'develop' into pr/iteyelmp/2737
+
+[33mcommit 322fd88221ca5aca3e230e0892943e69227a5493[m
+Merge: 686a7f044 030574852
+Author: Shakker Nerd <shakkerdroid@gmail.com>
+Date:   Fri Jan 24 19:45:39 2025 +0000
+
+    Merge branch 'develop' into pr/krustevalexander/2711
+
+[33mcommit 0305748520c388dac48bfff1db465ff7f7c1f3ec[m
+Author: Shakker Nerd <shakkerdroid@gmail.com>
+Date:   Fri Jan 24 18:28:01 2025 +0000
+
+    chore: pnpm lock file
+
+[33mcommit e959a168699ff51071acb4f66c5a5bd766f56953[m
+Merge: dfb184ee4 ffd8a014d
+Author: Shakker Nerd <shakkerdroid@gmail.com>
+Date:   Fri Jan 24 18:25:44 2025 +0000
+
+    Merge branch 'develop' into pr/conache/2707
+
+[33mcommit ffd8a014d181c9e195eb83b402572e73fce55c26[m
+Merge: 388795e81 00b794f62
+Author: Shakker Nerd <165377636+shakkernerd@users.noreply.github.com>
+Date:   Fri Jan 24 18:14:53 2025 +0000
+
+    Merge pull request #2733 from AIFlowML/fix-bug-hunt
+    
+    feat: biome automation via python with reporting
+
+[33mcommit 00b794f62404dea6b1b23ffc0cb71261623de5be[m
+Merge: 245f9cc92 388795e81
+Author: Shakker Nerd <shakkerdroid@gmail.com>
+Date:   Fri Jan 24 18:13:44 2025 +0000
+
+    Merge branch 'develop' into pr/AIFlowML/2733
+
+[33mcommit 388795e81c8758469d2a918519d77590ff6495a9[m
+Author: Sayo <hi@sayo.wtf>
+Date:   Fri Jan 24 23:37:16 2025 +0530
+
+    fix ton plugin issue (#2757)
+
+[33mcommit e6dfc08379b1b8768431d15f87e848ef19d945c9[m
+Author: KrausCrypto <75761052+ajkraus04@users.noreply.github.com>
+Date:   Fri Jan 24 12:19:08 2025 -0500
+
+    Bug/fix ton plugin (#2755)
+    
+    * Added wallet to action constructor
+    
+    * Update ton plugin to fix bugs.
+    
+    Needed to add a sleep function as Ton SDK has a ratelimit of 1 request per second.
+    
+    * Remove test only.
+    
+    * Update dobby.character.json
+    
+    ---------
+    
+    Co-authored-by: Sayo <hi@sayo.wtf>
+
+[33mcommit 82cae7f338faac84190bb02ad5375959f03fe609[m
+Author: Antonio Piazza <antman1p@gmail.com>
+Date:   Fri Jan 24 18:08:27 2025 +0100
+
+    fix: resolve @ai-sdk/provider version conflicts (#2714)
+    
+    - Add pnpm overrides to force @ai-sdk/provider@1.0.6 and @ai-sdk/provider-utils@2.1.2
+    - Resolves type conflicts between different versions of @ai-sdk/provider
+    - Fixes build error where "reasoning" type wasn't assignable to "text-delta"
+    
+    Co-authored-by: Sayo <hi@sayo.wtf>
+
+[33mcommit 96051e344be8c33e29878d5b555a63a6c7f31f97[m
+Author: Guspan Tanadi <36249910+guspan-tanadi@users.noreply.github.com>
+Date:   Sat Jan 25 00:03:03 2025 +0700
+
+    docs(core/evaluators): source example links (#2724)
+    
+    Co-authored-by: Sayo <hi@sayo.wtf>
+
+[33mcommit 6083026876d63f15109a51959c3c357de785a8d7[m
+Author: Benny <49161538+jinbangyi@users.noreply.github.com>
+Date:   Sat Jan 25 01:02:04 2025 +0800
+
+    feat(ton-plugin): add debug scripts and fix the transfer (#2744)
+    
+    * fix: TON transfer failed
+    
+    * feat(plugin-ton): add debug script to fast test ton plugin
+    
+    * feat: optimize the debug script
+    
+    * Update package.json
+    
+    ---------
+    
+    Co-authored-by: Sayo <hi@sayo.wtf>
+
+[33mcommit 7815e5c6da66dce3225bf0e13fa5c5a2f9ce3e95[m
+Author: mj <riku850@gmail.com>
+Date:   Sat Jan 25 00:49:42 2025 +0800
+
+    feat: Add Sei Plugin (#2720)
+    
+    * draft
+    
+    * add tests
+    
+    * add support for sei addresses
+    
+    * merge artifacts
+    
+    * test smoke tests
+    
+    * attempt fix smoke test
+    
+    * fix: sei plugin build
+    
+    ---------
+    
+    Co-authored-by: Sayo <hi@sayo.wtf>
+
+[33mcommit d23d9333ef24081ae06e78742c1b698e3a7c28d7[m
+Author: Alex <59183749+alex1092@users.noreply.github.com>
+Date:   Fri Jan 24 23:48:28 2025 +0700
+
+    chore: adds hyperliquid env variables to env example (#2736)
+    
+    * chore: adds hyperliquid env variables to env example
+    
+    * Update .env.example
+    
+    ---------
+    
+    Co-authored-by: Sayo <hi@sayo.wtf>
+
+[33mcommit f70e7e740385f3108f7ebf1a90bbe2bc7d5f717f[m
+Author: lincheoll <53032750+lincheoll@users.noreply.github.com>
+Date:   Sat Jan 25 01:47:37 2025 +0900
+
+    feat: Restrict discord bot to respond only in allowed channels (#2742) (#2743)
+
+[33mcommit 9a581fde73c680b297d570fc52d9552a2583eb12[m
+Author: HoldStation <develop@holdstation.com>
+Date:   Fri Jan 24 23:47:19 2025 +0700
+
+    feat(plugin-holdstation): add plugin holdstation swap (#2741)
+    
+    * feat(plugin-holdstation): add plugin holdstation swap
+    
+    * Update .env.example
+    
+    Revert "Update .env.example"
+    
+    This reverts commit b61171d6af2aaf222133a67961f2f7d178152270.
+    
+    * feat(plugin-holdstation): add plugin holdstation swap -- update tsconfig
+    
+    ---------
+    
+    Co-authored-by: Sayo <hi@sayo.wtf>
+
+[33mcommit bc0ed878bee59bb1931fae506bf982f5259acdfc[m
+Author: dezcalimese <75593051+dezcalimese@users.noreply.github.com>
+Date:   Fri Jan 24 11:46:52 2025 -0500
+
+    feat: add lit plugin (#2703)
+    
+    * init: lit plugin
+    
+    * remove files from cache
+    
+    * update Lit actions
+    
+    * add minor updates
+    
+    * add example env + initilisation
+    
+    * Update pnpm-lock.yaml
+    
+    ---------
+    
+    Co-authored-by: Sayo <hi@sayo.wtf>
+
+[33mcommit d38c3c18e3a408c12c70e64e92ec23e1ebe0a9d3[m
+Author: ZCDC_Ren <kuanglong0312@sina.com>
+Date:   Sat Jan 25 00:46:27 2025 +0800
+
+    fix: delete plugin-bootstrap sex message (#2748)
+
+[33mcommit 686a7f044913d136671df82ad2cbac6585b51bf9[m
+Merge: f95f0d739 6490485e5
+Author: krustevalexander <84629176+krustevalexander@users.noreply.github.com>
+Date:   Fri Jan 24 16:46:52 2025 +0200
+
+    Merge branch 'develop' into imgflip-plugin
+
+[33mcommit 245f9cc9255308d3661b73337618c9ef550fdeb5[m
+Merge: c040a90ae 6490485e5
+Author: Sayo <hi@sayo.wtf>
+Date:   Fri Jan 24 13:16:38 2025 +0530
+
+    Merge branch 'develop' into fix-bug-hunt
+
+[33mcommit 15b8e7fca46b28b97ffbd39158b7ece03d15f47a[m
+Author: li <iteyelmp@gmail.com>
+Date:   Fri Jan 24 14:16:41 2025 +0800
+
+    Init EthStorage Plugin
+
+[33mcommit 02835676e05b70fff01b1c35dd56c18447c138f2[m
+Author: twilwa <spywarezzz@proton.me>
+Date:   Thu Jan 23 21:49:03 2025 -0800
+
+    minimal workflow to resolve ephemeral check
+
+[33mcommit 6490485e5bb142336208a116f903446a2dd4db38[m
+Merge: 9faad388e f6e0d3d07
+Author: tcm390 <60634884+tcm390@users.noreply.github.com>
+Date:   Fri Jan 24 11:16:05 2025 +0800
+
+    Merge pull request #2732 from elizaOS/tcm-improve-twitter-post
+    
+    feat: move cleanJsonResponse to parsing
+
+[33mcommit f6e0d3d070f126689b54c7f3cdadbfb5c8733a72[m
+Merge: 0816ecf0e 9faad388e
+Author: tcm390 <60634884+tcm390@users.noreply.github.com>
+Date:   Fri Jan 24 11:13:37 2025 +0800
+
+    Merge branch 'develop' into tcm-improve-twitter-post
+
+[33mcommit 0816ecf0e6deee6d8991313870d4bcbccf4707d1[m
+Author: Ting Chien Meng <tcm390@nyu.edu>
+Date:   Fri Jan 24 11:10:23 2025 +0800
+
+    move cleanJsonResponse to parsing
+
+[33mcommit 9faad388e54c16b410f76917ca21836600d96762[m
+Merge: 2af84f802 859d9594d
+Author: tcm390 <60634884+tcm390@users.noreply.github.com>
+Date:   Fri Jan 24 11:05:06 2025 +0800
+
+    Merge pull request #2730 from elizaOS/tcm-improve-twitter-post
+    
+    feat: improve twitter parsing
+
+[33mcommit 859d9594db84d82d7101e22afb9b1c549604c1f5[m
+Author: Ting Chien Meng <tcm390@nyu.edu>
+Date:   Fri Jan 24 10:56:11 2025 +0800
+
+    truncate extracted text
+
+[33mcommit c040a90ae4cc8564edb82fe7316357e4ef9ed553[m
+Author: AIFlow_ML <mlstudio@aiflow.ml>
+Date:   Fri Jan 24 09:44:39 2025 +0700
+
+    biome automation via python with reporting
+
+[33mcommit 10fa7ebadf5f945b994eca67b05b417dcaf91218[m
+Author: Ting Chien Meng <tcm390@nyu.edu
