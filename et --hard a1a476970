@@ -1,0 +1,125 @@
+[33m09def8fff[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelop[m[33m)[m Merge branch 'develop' of https://github.com/elizaos/eliza into develop
+[33ma1a476970[m Speichere lokale Änderungen
+[33m0f9441a03[m[33m ([m[1;31morigin/develop[m[33m, [m[1;31morigin/HEAD[m[33m)[m Fixed bug in goal objectives update lookup logic (#2791)
+[33m227baf7bd[m Merge pull request #1248 from ileana-pr/news-plugin
+[33m2a967afbc[m feat: add missing env examples
+[33m540a57998[m Merge remote-tracking branch 'upstream/develop' into news-plugin
+[33m1281911b6[m feat: plugin Solana web3.js V2 & automated LPing on Orca (#2136)
+[33md29efbd5a[m Merge pull request #2782 from juanc07/fix/DTS-error-mismatch-LanguageModelV1-in-ai-sdk-mistral-model
+[33m4e7ca0901[m chore: pnpm lock file
+[33m5e24e7728[m Merge branch 'develop' into pr/juanc07/2782
+[33m1de4a08e8[m Merge pull request #2788 from JhChoy/patch-1
+[33mf3baec5df[m Merge branch 'develop' into patch-1
+[33m2b2f061b8[m Merge pull request #2789 from JhChoy/patch-2
+[33m819d808fc[m fix: client-twitter homeTimeline name parse bug
+[33m6bb21e9ab[m fix: topics formatting bug at composeState
+[33m0bab4d502[m override ethers (#2783)
+[33m6c0d395ba[m Fixed goal updating bug in the goal evaluator's handler (#2725)
+[33m3d05b891c[m feat: add Mind Network plugin (#2431)
+[33m4375d6b81[m feat(new-plugin): quick intel plugin for token security analysis (#2391)
+[33me7db6124d[m feat(client-alexa): Basic Alexa skill notification (#2564)
+[33m163cdb795[m chore(add-tests): plugin abstract: test config and tests (#2621)
+[33ma23378fd8[m fix for DTS Error  mismatch LanguageModelV1 in ai-sdk  mistral and fix for extract-version command in client package.json
+[33m5ef3f18e1[m Update tokenContract.ts (#2781)
+[33mfed685fad[m feat(new-adapter): mongo-db adaptor (#1427)
+[33m14a407c18[m chore: allow custom TEE log path (#2616)
+[33m30b22abdb[m feat: Add swap & improvements for multiversx-plugin (#2651)
+[33m1f46b48b0[m docs: add one click deployment to docs (#2631)
+[33m47a57db35[m fix: make template message footer more explicit (#2774)
+[33md505157a3[m Merge pull request #2775 from elizaOS/chore/turbo-cache
+[33m96cb93d0a[m Merge branch 'develop' into chore/turbo-cache
+[33mdb11205f1[m Update ci.yaml
+[33m5436aa6e0[m enable remote turbo cache
+[33m9095a78a0[m feat: Add plugin-dcap (#2638)
+[33m52660d5fc[m feat(new-plugin): bittensor bitmind api for eliza (#2682)
+[33m97b067f84[m Wrapping up preparing for the PR for Ankr (#2773)
+[33mbf073ac94[m feat(new-plugin): add Form chain plugin (#2728)
+[33mb6719760a[m feat(new-plugin): adding intelligent email evaluation and automation (#2709)
+[33m62c647418[m Merge pull request #2632 from gaiaaiagent/multi_agent_secrets
+[33m8358b34fd[m Merge pull request #2687 from ccross2/develop
+[33m53b972f03[m feat: add moralis plugin (#2764)
+[33m15d393776[m added zerion plugin (#2766)
+[33m54a4f37ab[m Merge pull request #2763 from LouisVannobel/develop
+[33m238aa0774[m Merge branch 'develop' into develop
+[33m19bc60c18[m feat: Add Amazon Bedrock as LLM provider (#2769)
+[33m6b268e5c2[m Merge branch 'develop' into develop
+[33m7b0113b77[m resolved conflict
+[33m131d88466[m Merge pull request #2768 from twilwa/feat/turbo-config
+[33m7f0a5878d[m Merge remote-tracking branch 'upstream/develop' into news-plugin
+[33m40317d72f[m Create .turbo/config.json
+[33m3d14fe2a0[m Merge pull request #2719 from ai16z-demirix/tests/client-eliza-home
+[33mb282b6fec[m Restore defaultCharacter.ts from previous commit
+[33m8ea70e337[m chore: fix broken pnpm lock file
+[33m880d3b684[m Merge branch 'develop' into pr/lispking/2702
+[33m85b754243[m Merge branch 'develop' into tests/client-eliza-home
+[33m9dca26bfc[m Merge pull request #2735 from twilwa/feat/minimal-merge-queue
+[33m518cc9b53[m Fix path in all files
+[33m01c9d62ad[m Merge branch 'develop' into tests/client-eliza-home
+[33m6338dc88a[m client-eliza-home: pr feedback -> improving mock gor smart_home test
+[33m93f1553a3[m Merge branch 'develop' into pr/iteyelmp/2737
+[33m322fd8822[m Merge branch 'develop' into pr/krustevalexander/2711
+[33m030574852[m chore: pnpm lock file
+[33me959a1686[m Merge branch 'develop' into pr/conache/2707
+[33mffd8a014d[m Merge pull request #2733 from AIFlowML/fix-bug-hunt
+[33m00b794f62[m Merge branch 'develop' into pr/AIFlowML/2733
+[33m388795e81[m fix ton plugin issue (#2757)
+[33mdeed309a2[m Merge remote-tracking branch 'upstream/develop' into news-plugin
+[33me6dfc0837[m Bug/fix ton plugin (#2755)
+[33m82cae7f33[m fix: resolve @ai-sdk/provider version conflicts (#2714)
+[33m96051e344[m docs(core/evaluators): source example links (#2724)
+[33m608302687[m feat(ton-plugin): add debug scripts and fix the transfer (#2744)
+[33m7815e5c6d[m feat: Add Sei Plugin (#2720)
+[33md23d9333e[m chore: adds hyperliquid env variables to env example (#2736)
+[33mf70e7e740[m feat: Restrict discord bot to respond only in allowed channels (#2742) (#2743)
+[33m9a581fde7[m feat(plugin-holdstation): add plugin holdstation swap (#2741)
+[33mbc0ed878b[m feat: add lit plugin (#2703)
+[33md38c3c18e[m fix: delete plugin-bootstrap sex message (#2748)
+[33m686a7f044[m Merge branch 'develop' into imgflip-plugin
+[33m245f9cc92[m Merge branch 'develop' into fix-bug-hunt
+[33m15b8e7fca[m Init EthStorage Plugin
+[33m02835676e[m minimal workflow to resolve ephemeral check
+[33mf1b346198[m Merge branch 'develop' into plugin-mina
+[33me2f09069f[m support get balance of plugin-mina
+[33m272946b79[m Merge branch 'develop' into tests/client-eliza-home
+[33m6490485e5[m Merge pull request #2732 from elizaOS/tcm-improve-twitter-post
+[33mf6e0d3d07[m Merge branch 'develop' into tcm-improve-twitter-post
+[33m0816ecf0e[m move cleanJsonResponse to parsing
+[33m9faad388e[m Merge pull request #2730 from elizaOS/tcm-improve-twitter-post
+[33m859d9594d[m truncate extracted text
+[33mc7af9cb6c[m support faucet for plugin-mina
+[33mc040a90ae[m biome automation via python with reporting
+[33m10fa7ebad[m extract the text attribute if json parsing failed
+[33m39623299d[m add error logger
+[33m47815b1fc[m make a function for cleaning json response
+[33mf56ca6510[m use core function for truncate
+[33m578a4d204[m add mina wallet env notes
+[33mec53f921f[m adjust plugin-mina order
+[33m0d7394df9[m Merge branch 'develop' into plugin-mina
+[33m19467738d[m Change the return value of price to be rounded to two decimal places
+[33m4b840f72e[m Different fees are applied when different networks are called
+[33mdb041aabd[m Merge branch 'develop' into tests/client-eliza-home
+[33m2af84f802[m Merge pull request #2716 from elizaOS/tcm-remove-config-log
+[33mb9d0dc337[m Merge branch 'develop' into tcm-remove-config-log
+[33m2cac5dfa3[m Merge pull request #2717 from elizaOS/tcm-debug-json
+[33m59c266c21[m client-eliza-home: smart home tests
+[33m6cf229384[m client-eliza-home: utils tests
+[33m3d459d48c[m client-eliza-home: smart things api tests
+[33mc55927562[m client-eliza-home: test config
+[33ma42fe57b3[m add error message
+[33md56dfe847[m Merge branch 'develop' into tcm-remove-config-log
+[33m49e2ce735[m Merge pull request #2715 from elizaOS/tcm-remove-duplicated-pending
+[33ma0d6f09c0[m Remove the log as it may potentially cause the app to crash
+[33m69ddfa4b5[m remove duplicated handlePendingTweet
+[33m499b1394b[m fix: Unexpected JSON Metadata in Twitter Bot Replies (#2712)
+[33mf95f0d739[m chore: update pnpm-lock.yaml with the new plugin
+[33ma4ece5f69[m refactor: update README for Imgflip plugin
+[33m2884ff302[m feat: add Imgflip plugin for meme generation with imgflip.com API integration
+[33m6f4b8218b[m adjust plugin-mina order
+[33m00c585dba[m Merge branch 'develop' into plugin-mina
+[33mdfb184ee4[m Merge remote-tracking branch 'upstream/develop' into use-allora-sdk-v0.1.0
+[33m5148871bf[m Use allora-sdk@0.1.0
+[33mc0529a079[m Merge pull request #2704 from elizaOS/tcm-fix-sttspace-type
+[33mafb4cd903[m fix user id type
+[33m52dad5ff5[m Merge pull request #2686 from worksgoodcompany/develop
+[33m78b199cda[m Merge branch 'develop' into develop
+[33m0afde97d1[
